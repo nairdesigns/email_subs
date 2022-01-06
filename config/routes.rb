@@ -18,5 +18,6 @@ Rails.application.routes.draw do
   # Defines the root path route ("/")
   # root "articles#index"
   # devise_for :users  
+  # devise_scope ：:user do 
   root to: 'projects#index'
 end
